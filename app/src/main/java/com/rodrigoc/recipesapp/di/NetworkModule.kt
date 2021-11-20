@@ -1,15 +1,14 @@
-package com.rodrigoc.recipesapp
+package com.rodrigoc.recipesapp.di
 
 import com.rodrigoc.recipesapp.Constants.Companion.BASE_URL
+import com.rodrigoc.recipesapp.data.network.FoodRecipesApi
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
-import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 

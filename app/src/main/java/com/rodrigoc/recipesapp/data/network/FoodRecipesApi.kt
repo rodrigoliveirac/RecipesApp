@@ -1,4 +1,4 @@
-package com.rodrigoc.recipesapp
+package com.rodrigoc.recipesapp.data.network
 
 import com.rodrigoc.recipesapp.model.FoodRecipe
 import retrofit2.Response

@@ -1,5 +1,6 @@
-package com.rodrigoc.recipesapp
+package com.rodrigoc.recipesapp.data
 
+import com.rodrigoc.recipesapp.data.network.FoodRecipesApi
 import com.rodrigoc.recipesapp.model.FoodRecipe
 import retrofit2.Response
 import javax.inject.Inject
