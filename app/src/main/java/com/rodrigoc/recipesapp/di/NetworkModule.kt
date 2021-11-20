@@ -1,6 +1,6 @@
 package com.rodrigoc.recipesapp.di
 
-import com.rodrigoc.recipesapp.Constants.Companion.BASE_URL
+import com.rodrigoc.recipesapp.util.Constants.Companion.BASE_URL
 import com.rodrigoc.recipesapp.data.network.FoodRecipesApi
 import dagger.Module
 import dagger.Provides

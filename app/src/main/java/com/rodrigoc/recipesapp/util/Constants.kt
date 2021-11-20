@@ -1,4 +1,4 @@
-package com.rodrigoc.recipesapp
+package com.rodrigoc.recipesapp.util
 
 class Constants {
 
